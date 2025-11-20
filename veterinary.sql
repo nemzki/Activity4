@@ -147,3 +147,5 @@ WHERE doctorid = 3;
 
 SELECT DISTINCT species
 FROM animals;
+
+SELECT SUM(totalamount) FROM invoices;
