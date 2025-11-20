@@ -144,3 +144,6 @@ DELETE FROM appointments WHERE appointid = 3;
 UPDATE doctors 
 SET dlastname = 'Mendoza' 
 WHERE doctorid = 3;
+
+SELECT DISTINCT species
+FROM animals;
