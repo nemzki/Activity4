@@ -86,3 +86,14 @@ VALUES (01, 'Matcha', 'Dog', 'Toy Poodle', '2005-03-29', 'Female', 'Brown', 1),
         (09, 'Kobe', 'Dog', 'Golden Retriever', '2013-06-02', 'Male', 'Gold', 9),
         (10, 'Snow', 'Dog', 'Samoyed', '2017-08-14', 'Female', 'White', 10);
 
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES (1, 01, '2025-11-16', 'Check up'),
+        (2, 02, '2025-11-17', 'Vaccination'),
+        (3, 03, '2025-11-18', 'Grooming'),
+        (4, 04, '2025-11-19', 'Vaccnation'),
+        (5, 05, '2025-11-20', 'Deworming'),
+        (6, 06, '2025-11-21', 'X-ray'),
+        (7, 07, '2025-11-22', 'Dental Cleaning'),
+        (8, 08, '2025-11-23', 'Check up'),
+        (9, 09, '2025-11-24', 'Flea Treatment'),
+        (10, 10, '2025-11-25', 'Blood Test');
