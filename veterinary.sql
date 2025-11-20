@@ -140,3 +140,7 @@ RENAME COLUMN paymentdate TO paymenttime;
 
 DELETE FROM invoices WHERE appointid = 3;
 DELETE FROM appointments WHERE appointid = 3;
+
+UPDATE doctors 
+SET dlastname = 'Mendoza' 
+WHERE doctorid = 3;
