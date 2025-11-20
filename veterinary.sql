@@ -72,3 +72,17 @@ VALUES (1, 'Jim John', 'Ebreo', 'Rosario', 09123456789, 'ebreo@gmail.com'),
         (8, 'Ambross', 'Matibag', 'Taga-Gubat', 09823456789, 'matibag@gmail.com'),
         (9, 'Angela', 'Dalangin', 'San Jose', 09923456789, 'dalangin@gmail.com'),
         (10, 'Jhon Rhey', 'Tenorio', 'Taga sa kanila', 09133456789, 'tenors@gmail.com');
+
+
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
+VALUES (01, 'Matcha', 'Dog', 'Toy Poodle', '2005-03-29', 'Female', 'Brown', 1),
+        (02, 'Mocha', 'Dog', 'Shih Tzu', '2010-07-15', 'Male', 'White', 2),
+        (03, 'Luna', 'Cat', 'Persian', '2018-11-03', 'Female', 'Gray', 3),
+        (04, 'Buddy', 'Dog', 'Labrador', '2012-02-21', 'Male', 'Black', 4),
+        (05, 'Choco', 'Dog', 'Pomeranian', '2016-09-10', 'Male', 'Brown', 5),
+        (06, 'Nala', 'Cat', 'Siamese', '2019-05-27', 'Female', 'Cream', 6),
+        (07, 'Rocky', 'Dog', 'Bulldog', '2014-12-08', 'Male', 'Brindle', 7),
+        (08, 'Mimi', 'Cat', 'British Shorthair', '2020-01-19', 'Female', 'Blue', 8),
+        (09, 'Kobe', 'Dog', 'Golden Retriever', '2013-06-02', 'Male', 'Gold', 9),
+        (10, 'Snow', 'Dog', 'Samoyed', '2017-08-14', 'Female', 'White', 10);
+
