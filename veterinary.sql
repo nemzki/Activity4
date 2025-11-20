@@ -149,3 +149,7 @@ SELECT DISTINCT species
 FROM animals;
 
 SELECT SUM(totalamount) FROM invoices;
+
+SELECT COUNT(*) AS total_appointments
+FROM appointments
+WHERE appointid = 8;
